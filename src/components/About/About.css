@@ -1,0 +1,29 @@
+.a-h{
+    color: #fa6b81;
+    font-family: cursive;
+}
+
+
+.a-wrapper{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+
+
+
+.aboutleft>p{
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    color: #374151a6;
+
+
+}
+
+
+
+
+
+

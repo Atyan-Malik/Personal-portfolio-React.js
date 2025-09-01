@@ -1,0 +1,42 @@
+.f-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background:linear-gradient(160deg,#462b56,#d95a6d) ;
+   
+    padding: 3rem 3rem;
+}
+
+.social{
+display: flex;
+gap: 1rem;
+font-size: 2rem;
+cursor: pointer;
+color:#dbeafc;
+}
+
+.social>i:hover{
+  box-shadow: 0 8px 16px rgba(220, 192, 192, 0.623);
+  border-radius: 15px;
+
+}
+
+.left>h1{
+ color: #dbeafcfd;
+
+}
+
+.f-s>p{
+    color: #dd16c6c4;
+    font-size: 30px;
+}
+
+span{
+  color: #fff;
+}
+
+.f-s{
+  display: flex;
+  gap: 1rem;
+}
+

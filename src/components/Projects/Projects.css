@@ -1,0 +1,91 @@
+
+.p-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.p-wrapper .p-p-2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+    color: (160deg,#462b56,#d95a6d) ;
+ 
+}
+.p-n{
+  color: #fff;
+}
+.btn3{
+    background:linear-gradient(160deg,#462b56,#d95a6d) ;
+    width: 50%;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+.btn3:hover{
+   background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+}
+
+/* 3 cards per row */
+.p-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  padding: 20px;
+}
+
+.pro-grid {
+
+  /* background:linear-gradient(40deg,#462b56,#f35b72) ;*/
+  background-color: black;
+ 
+
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 16px rgba(220, 192, 192, 0.708);
+  height: 410px;
+}
+
+.pro-grid:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(227, 57, 190, 0.708);
+  
+}
+
+.pro-grid>img{
+height: 200px;
+width: 300px;
+border-radius: 10px;
+border: 2px solid #fff;
+}
+
+.p-p{
+    color:#fff ;
+    font-weight: bold;
+
+}
+
+@media (max-width:500px) {
+  .p-container{
+   display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 3 columns */
+  gap: 20px;
+ 
+  }
+
+  .pro-grid{
+    width: 340px;
+  }
+  
+}
