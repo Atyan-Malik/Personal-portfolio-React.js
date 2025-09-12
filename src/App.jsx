@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero.jsx/Hero";
+ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 // import { Routes, Route, Link } from "react-router-dom";
@@ -11,9 +11,10 @@ function App() {
   return (  
   <>
     <div className="mainpage">
+         <Header />
+
       <main>
         <section id="home">
-      <Header />
 
           <Hero />
         </section>

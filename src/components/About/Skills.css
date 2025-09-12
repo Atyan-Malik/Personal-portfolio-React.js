@@ -1,14 +1,15 @@
 .skills-section {
   width: 100%;
   padding: 1rem 1rem;
-  background:linear-gradient(40deg,#462b56,#f35b72) ;
+  background: linear-gradient(135deg, #000000, #1e40af, #0ea5e9);
+
   border-radius: 10px;
   margin-top: 3.5rem;
   height: 410px;
 }
 
 h2 {
-  color:  #fa6b81;
+  color: #d0baba;
 }
 
 .skills-grid {
@@ -25,7 +26,6 @@ h2 {
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  /* position: relative; */
 }
 
 .skill-card:hover {
@@ -45,4 +45,3 @@ h2 {
   font-weight: 500;
   color: #374151;
 }
-

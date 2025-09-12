@@ -1,5 +1,5 @@
 .a-h{
-    color: #fa6b81;
+    color: #d0baba;
     font-family: cursive;
 }
 
@@ -9,6 +9,7 @@
     justify-content:space-around;
     flex-wrap: wrap;
     margin-top: 3rem;
+   
 }
 
 
@@ -17,7 +18,7 @@
 .aboutleft>p{
     line-height: 1.5rem;
     margin-top: 1rem;
-    color: #374151a6;
+    color: #2563eb;
 
 
 }

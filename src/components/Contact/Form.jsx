@@ -5,10 +5,9 @@ const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: ""
+    message: "",
   });
 
-  // handle input change
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -17,7 +16,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const phoneNumber = "923193844891"; // 👉 your WhatsApp number (international format, no + or 0 at start)
+    const phoneNumber = "923193844891";
     const text = `Hello, my name is ${formData.name}. 
 My email is ${formData.email}. 
 Message: ${formData.message}`;

@@ -11,12 +11,11 @@ const Header = () => {
 
   return (
     <div className="h-wrapper">
-      {/* Logo */}
       <h1>
-        <BsBriefcase /> ATYAN MALIK.
+        <BsBriefcase style={{ color: "white", fontSize: "30px" }} /> ATYAN
+        MALIK.
       </h1>
 
-      {/* Desktop / Mobile Nav */}
       <div className={`h-menu ${open ? "open" : ""}`}>
         <a href="#home" onClick={closeMenu}>
           Home
@@ -32,14 +31,12 @@ const Header = () => {
         </a>
       </div>
 
-      {/* Contact button (always visible) */}
       <div>
         <a className="btn00" href="#contact">
           Contact Now
         </a>
       </div>
 
-      {/* Hamburger button (mobile only) */}
       <button className="menu-btn" onClick={handleToggle}>
         {open ? <FiX size={22} /> : <FiMenu size={22} />}
       </button>
