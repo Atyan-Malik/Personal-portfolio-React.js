@@ -1,34 +1,4 @@
-// import React, { useState } from "react";
-// import "./Header.css";
-// import { BsBriefcase } from "react-icons/bs";
-// import { FiMenu, FiX } from "react-icons/fi"; // hamburger + close icons
 
-// const Header = () => {
-//   const [open, setOpen] = useState(false);
-
-//   const handleToggle = () => setOpen(!open);
-//   const closeMenu = () => setOpen(false);
-
-//   return (
-//     <>
-//     <div className="h-wrapper">
-//       <h1>
-//         <BsBriefcase style={{ color: "white", fontSize: "30px" }} /> ATYAN
-//         MALIK.
-//       </h1>
-
-     
-     
-//     </div>
-      
-
-   
-    
-//     </>
-//   );
-// };
-
-// export default Header;
 
 
 import React from "react";
