@@ -2,55 +2,56 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+  text-align: center; /* center heading + container */
 }
 
-.p-wrapper .p-p-2 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
-  color: (160deg, #462b56, #d95a6d);
+.p-p-2{
+  margin-bottom: 20px;
+  font-size: 30px;
 }
+
 .p-n {
   color: white;
 }
-.btn3 {
-  background: linear-gradient(135deg, #1e40af, #0ea5e9, #22d3ee);
 
-  width: 50%;
+.btn3 {
+  background: linear-gradient(135deg, #000000, #1e40af, #0ea5e9);
+  display: block;            
+  margin: 1rem auto 0;        
+  width: 200px;              
   color: white;
   font-weight: bold;
   padding: 10px;
   border: none;
   border-radius: 10px;
-  margin-top: 1rem;
   cursor: pointer;
 }
+
 .btn3:hover {
   background: linear-gradient(135deg, #2563eb, #c59e9e);
   color: white;
 }
 
-/* 3 cards per row */
+/* Grid layout */
 .p-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 20px;
+  justify-content: center; /* center grid items inside */
 }
 
 .pro-grid {
   background: linear-gradient(135deg, #1e40af, #3b82f6, #60a5fa);
-
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
   color: #fff;
-
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  height: 410px;
+  height: 460px;              /* let content decide height */
+  max-width: 340px;          /* keeps card from stretching */
+  margin: 0 auto;            /* center each card */
 }
 
 .pro-grid:hover {
@@ -59,8 +60,8 @@
 }
 
 .pro-grid > img {
-  height: 200px;
-  width: 300px;
+  width: 100%;               /* responsive image */
+  height: auto;
   border-radius: 10px;
 }
 
@@ -69,14 +70,16 @@
   font-weight: bold;
 }
 
+/* Tablet - 2 cards per row */
+@media (max-width: 900px) {
+  .p-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile - 1 card per row */
 @media (max-width: 500px) {
   .p-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-
-  .pro-grid {
-    width: 340px;
+    grid-template-columns: 1fr;
   }
 }

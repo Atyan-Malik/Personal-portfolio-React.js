@@ -35,5 +35,35 @@ span {
 
 .f-s {
   display: flex;
+ 
   gap: 1rem;
 }
+
+
+
+@media (min-width:200px) and (max-width:500px) {
+  .f-s{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+
+    
+  }
+  .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+}
+  .left h1{
+  text-align: center;
+  
+
+}
+.right{
+  margin-top: 10px;
+}
+} 

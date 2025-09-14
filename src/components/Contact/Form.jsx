@@ -31,7 +31,7 @@ Message: ${formData.message}`;
   return (
     <div>
       <h2>Contact Me</h2>
-      <section className="contact">
+      <section  className="contact">
         <form onSubmit={handleSubmit} className="contact-form">
           <div className="form-group">
             <label htmlFor="name">Your Name</label>
