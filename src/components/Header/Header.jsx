@@ -1,12 +1,12 @@
-<<<<<<< HEAD
+
 
 
 
 import React from "react";
-=======
+
 import React, { useState } from "react";
 import { FaBriefcase, FaBars, FaTimes } from "react-icons/fa";
->>>>>>> d35f730 (Fixed mobile menu alignment and styling)
+
 import "./Header.css";
 
 const Header = () => {
