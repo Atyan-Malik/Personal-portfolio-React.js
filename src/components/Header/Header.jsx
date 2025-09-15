@@ -1,9 +1,3 @@
-
-
-
-
-import React from "react";
-
 import React, { useState } from "react";
 import { FaBriefcase, FaBars, FaTimes } from "react-icons/fa";
 
@@ -14,13 +8,13 @@ const Header = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // 🔑 Smooth scroll handler
+
   const scrollToContact = () => {
     const section = document.getElementById("contact");
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
-    setIsOpen(false); // close mobile menu after click
+    setIsOpen(false); 
   };
 
   return (
@@ -31,7 +25,7 @@ const Header = () => {
         <h1 className="name">ATYAN MALIK</h1>
       </div>
 
-      {/* Desktop Nav */}
+      
       <nav className="nav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -39,22 +33,30 @@ const Header = () => {
         <a href="#contact">Contact</a>
       </nav>
 
-      {/* Desktop Button */}
+     
       <button className="contact-btn" onClick={scrollToContact}>
         Contact Me
       </button>
 
-      {/* Mobile Hamburger */}
+  
       <div className="hamburger" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
 
-      {/* Mobile Menu */}
+     
       <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
-        <a href="#home" onClick={toggleMenu}>Home</a>
-        <a href="#about" onClick={toggleMenu}>About</a>
-        <a href="#projects" onClick={toggleMenu}>Projects</a>
-        <a href="#contact" onClick={toggleMenu}>Contact</a>
+        <a href="#home" onClick={toggleMenu}>
+          Home
+        </a>
+        <a href="#about" onClick={toggleMenu}>
+          About
+        </a>
+        <a href="#projects" onClick={toggleMenu}>
+          Projects
+        </a>
+        <a href="#contact" onClick={toggleMenu}>
+          Contact
+        </a>
 
         <button className="contact-btn" onClick={scrollToContact}>
           Contact Me
