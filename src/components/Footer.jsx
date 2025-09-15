@@ -33,6 +33,13 @@ const Footer = () => {
               }
               className="fa-brands fa-facebook"
             ></i>
+            <i
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/atyan-malik/")
+              }
+              className="fa-brands fa-linkedin"
+            ></i>
+            
           </div>
         </div>
       </div>

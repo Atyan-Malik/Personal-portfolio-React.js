@@ -21,7 +21,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div data-aos="fade-up" className="c-wrapper" id="contact">
+    <div id="contact" data-aos="fade-up" className="c-wrapper" >
       <div className="c-right">
         <Form />
       </div>

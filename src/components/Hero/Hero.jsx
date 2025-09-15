@@ -16,7 +16,8 @@ const Hero = () => {
           <h5>Hi, I'm <span className="highlight">Atyan</span> </h5>
         
         <p>
-          I’m a passionate Frontend Developer <br /> who loves building clean, <br />
+          <span className="main-h">I’m a Frontend Developer </span>
+          <br /> who loves building clean, <br />
           responsive,  and interactive web interfaces. Using  <br /> HTML CSS /TAILWIND JAVASCRIPT REACT.js!
 
         </p>
@@ -25,7 +26,10 @@ const Hero = () => {
 
      
       <div className="hero-right" data-aos="fade-right">
-        <img src="/img2.png" alt="Atyan Portrait" />
+         <div className="img-wrapper">
+          <img src="/img2.png" alt="Atyan Portrait" />
+
+         </div>
       </div>
     </section>
   );

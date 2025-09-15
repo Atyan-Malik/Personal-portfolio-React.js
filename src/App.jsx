@@ -3,7 +3,6 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-// import { Routes, Route, Link } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 
@@ -11,15 +10,26 @@ function App() {
   return (
     <>
       <div className="mainpage">
+        {/* Fixed header at top */}
         <Header />
 
-        <Hero />
+        {/* Each section wrapped with id for navigation */}
+        <section id="home">
+          <Hero />
+        </section>
 
-        <About />
+        <section id="about">
+          <About />
+        </section>
 
-        <Projects />
+        <section id="projects">
+          <Projects />
+        </section>
 
-        <Contact />
+        <section id="contact">
+          <Contact />
+        </section>
+
         <Footer />
       </div>
     </>

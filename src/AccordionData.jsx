@@ -4,7 +4,7 @@ const data = [
    
     id:"1",
     heading:"About Me",
-    details: "Hi!  I'm a self-taught Front-End Web Developer with a strong foundation in HTML, CSS, Tailwind CSS, JavaScript, and React.",
+    details: "Hi!  I'm a certified Front-End Web Developer with a strong foundation in HTML, CSS, Tailwind CSS, JavaScript, and React.",
 
      
   },
@@ -19,7 +19,7 @@ const data = [
     
     id:"3",
     heading: "My Goal",
-    details:",’m now looking forward to contributing my skills in a professional environment where  I can collaborate, grow, and build impactful web experiences."
+    details:"i,m now looking forward to contributing my skills in a professional environment where  I can collaborate, grow, and build impactful web experiences."
       
   },
 ];
